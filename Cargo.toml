@@ -1,0 +1,22 @@
+[workspace]
+members = [
+    "adder",
+    "closure_3",
+    "closures",
+    "closures_2",
+    "closures_4",
+    "error_handling",
+    "error_handling_2",
+    "generics",
+    "hash_maps",
+    "lifetimes",
+    "project1",
+    "strings",
+    "tests",
+    "tests_2",
+    "threads_tests",
+    "traits",
+    "traits_2",
+    "vectors",
+]
+resolver = "3"

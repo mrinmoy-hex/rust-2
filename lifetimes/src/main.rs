@@ -70,9 +70,5 @@ fn main() {
 /// This function is valid because the returned reference has the same lifetime as
 /// the inputs: it can only be used while both inputs are still alive.
 fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
-    if x.len() > y.len() {
-        x
-    } else {
-        y
-    }
+    if x.len() > y.len() { x } else { y }
 }
